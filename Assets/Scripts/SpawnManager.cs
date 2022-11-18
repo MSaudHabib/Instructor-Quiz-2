@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] enemyPrefabs = new GameObject[4];
     public float startDelay = 1;
     public float repeatDelay = 5;
-    public PlayerController playerController;
+    private PlayerController playerController;
     // Start is called before the first frame update
     void Start()
     {
